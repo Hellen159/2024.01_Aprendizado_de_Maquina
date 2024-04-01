@@ -48,7 +48,7 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 | Hellen Fernanda Mendonça de Faria | 202016480 |
 | Lucas Andrade Lobão               | 202023888 |
 | Lucas Gobbi Bergholz                | 211029441 |
-| Rodrigo                 |  |
+| Rodrigo Carvalho dos Santos         | 180027352 |
 | Yago Milagres Passos   | 200049879 |
 
 
