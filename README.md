@@ -20,9 +20,9 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 
 ## Tecnologias Utilizadas
 
-- Liguagem de Programação:
+- Liguagem de Programação: Python
 
-- Bibliotecas:
+- Bibliotecas: Matplotlib, 
 
 - Frameworks:
 
