@@ -34,9 +34,10 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 
 |                                                                                        **Foto**                                                                                         |         **Nome**         |                    **GitHub**                     |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
+|   <a href="https://github.com/anaaroch"><img src="https://avatars.githubusercontent.com/u/71738607?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp;   | Ana Caroline Campos Rocha |     [anaaroch](https://github.com/anaaroch)     |
 |   <a href="https://github.com/Hellen159"><img src="https://avatars.githubusercontent.com/u/84354824?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp;   | Hellen Fernanda Mendonça |     [Hellen159](https://github.com/Hellen159)     |
 | <a href="https://github.com/lucaslobao-18"><img src="https://avatars.githubusercontent.com/u/83256558?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Lucas Andrade Lobão    | [lucaslobao-18](https://github.com/lucaslobao-18) |
-| <a href="https://github.com/yagompassos-18"><img src="https://avatars.githubusercontent.com/" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Yago Milagres Passos  | [yagompassos](https://github.com/yagompassos) |
+| <a href="https://github.com/yagompassos-18"><img src="https://avatars.githubusercontent.com/u/73550220?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Yago Milagres Passos  | [yagompassos](https://github.com/yagompassos) |
 
 
 ### Matrículas
@@ -54,7 +55,7 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 ## Como executar o cógido
 
 ### Passo 1
-Em seu terminal, cloneo repositório:
+Em seu terminal, clone o repositório:
 ```bash
 $ git clone https://github.com/Hellen159/2024.01_Aprendizado_de_Maquina.git
 ```
