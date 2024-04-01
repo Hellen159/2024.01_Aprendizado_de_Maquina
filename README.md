@@ -42,10 +42,10 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 
 | Nome                              | Matrícula |
 | --------------------------------- | --------- |
-| Ana Rocha             |  |
+| Ana Rocha             | 190083930 |
 | Hellen Fernanda Mendonça de Faria | 202016480 |
 | Lucas Andrade Lobão               | 202023888 |
-| Lucas Gobbi                 |  |
+| Lucas Gobbi                 | 211029441 |
 | Rodrigo                 |  |
 | Yago                 |  |
 
