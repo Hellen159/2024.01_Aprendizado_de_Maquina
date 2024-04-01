@@ -36,6 +36,7 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------: | :-----------------------------------------------: |
 |   <a href="https://github.com/Hellen159"><img src="https://avatars.githubusercontent.com/u/84354824?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp;   | Hellen Fernanda Mendonça |     [Hellen159](https://github.com/Hellen159)     |
 | <a href="https://github.com/lucaslobao-18"><img src="https://avatars.githubusercontent.com/u/83256558?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Lucas Andrade Lobão    | [lucaslobao-18](https://github.com/lucaslobao-18) |
+| <a href="https://github.com/yagompassos-18"><img src="https://avatars.githubusercontent.com/" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Yago Milagres Passos  | [yagompassos](https://github.com/yagompassos) |
 
 
 ### Matrículas
@@ -47,7 +48,7 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 | Lucas Andrade Lobão               | 202023888 |
 | Lucas Gobbi Bergholz                | 211029441 |
 | Rodrigo                 |  |
-| Yago                 |  |
+| Yago Milagres Passos   | 200049879 |
 
 
 ## Como executar o cógido
