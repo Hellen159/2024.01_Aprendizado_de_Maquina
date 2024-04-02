@@ -22,7 +22,7 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 
 - Liguagem de Programação: Python
 
-- Bibliotecas: Matplotlib, 
+- Bibliotecas: Matplotlib, Numpy
 
 - Frameworks:
 
