@@ -37,6 +37,8 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 |   <a href="https://github.com/anaaroch"><img src="https://avatars.githubusercontent.com/u/71738607?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp;   | Ana Caroline Campos Rocha |     [anaaroch](https://github.com/anaaroch)     |
 |   <a href="https://github.com/Hellen159"><img src="https://avatars.githubusercontent.com/u/84354824?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp;   | Hellen Fernanda Mendonça |     [Hellen159](https://github.com/Hellen159)     |
 | <a href="https://github.com/lucaslobao-18"><img src="https://avatars.githubusercontent.com/u/83256558?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Lucas Andrade Lobão    | [lucaslobao-18](https://github.com/lucaslobao-18) |
+| <a href="https://github.com/LucasBergholz"><img src="https://avatars.githubusercontent.com/u/99743571?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Lucas Gobbi Bergholz   | [LucasBergholz](https://github.com/LucasBergholz) |
+| <a href="https://github.com/Rocsantos"><img src="https://avatars.githubusercontent.com/u/42697323?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Rodrigo Carvalho dos Santos  | [Rocsantos](https://github.com/Rocsantos) |
 | <a href="https://github.com/yagompassos-18"><img src="https://avatars.githubusercontent.com/u/73550220?v=4" height="auto" width="90" style="border-radius:50%"></a> &nbsp; &nbsp; &nbsp; |   Yago Milagres Passos  | [yagompassos](https://github.com/yagompassos) |
 
 
@@ -44,12 +46,12 @@ Utilizaremos um conjunto de dados de imagens médicas disponível publicamente. 
 
 | Nome                              | Matrícula |
 | --------------------------------- | --------- |
-| Ana Caroline Campos Rocha             | 190083930 |
+| Ana Caroline Campos Rocha         | 190083930 |
 | Hellen Fernanda Mendonça de Faria | 202016480 |
 | Lucas Andrade Lobão               | 202023888 |
-| Lucas Gobbi Bergholz                | 211029441 |
-| Rodrigo Carvalho dos Santos         | 180027352 |
-| Yago Milagres Passos   | 200049879 |
+| Lucas Gobbi Bergholz              | 211029441 |
+| Rodrigo Carvalho dos Santos       | 180027352 |
+| Yago Milagres Passos              | 200049879 |
 
 
 ## Como executar o cógido
