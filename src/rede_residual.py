@@ -87,7 +87,7 @@ transform = transforms.Compose([
 
 # Carregamento dos dados de treinamento
 # Carregamento dos dados de treinamento
-train_data = datasets.ImageFolder(root='../data', transform=transform)
+train_data = datasets.ImageFolder(root='data/hand', transform=transform)
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 
 
