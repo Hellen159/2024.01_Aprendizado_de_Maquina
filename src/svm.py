@@ -1,9 +1,7 @@
-#Documentação sklearn https://scikit-learn.org/0.21/documentation.html
-
 import os
 import numpy as np
 import joblib
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from skimage.io import imread
@@ -33,22 +31,31 @@ y = np.concatenate((fractured_labels, non_fractured_labels))
 # Dividindo os dados em conjunto de treinamento e teste
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-
 # Verificando se há pelo menos duas classes nos rótulos de treinamento
 if len(np.unique(y_train)) < 2:
     raise ValueError("Há apenas uma classe nos dados de treinamento. Certifique-se de que há duas classes presentes.")
 
+# Definindo os hiperparâmetros para ajustar
+parameters = {'C': [0.1, 1, 10], 'gamma': [0.001, 0.01, 0.1, 1], 'kernel': ['linear', 'rbf']}
+
 # Criando Instância do modelo svm
-svm_model = SVC(kernel='linear')
+svm_model = SVC()
+
+# Criando uma instância do GridSearchCV com a métrica F1-score
+grid_search = GridSearchCV(svm_model, parameters, cv=5, scoring='f1')
 
 # Tereino de modelo
 print("Iniciando treino de modelo...")
-svm_model.fit(X_train, y_train)
+grid_search.fit(X_train, y_train)
 print("Treino finalizado!")
+
+# Melhores parâmetros encontrados
+print("Melhores parâmetros encontrados:")
+print(grid_search.best_params_)
 
 # Fazendo previsões no conjunto de teste
 print("Iniciando testes...")
-y_pred = svm_model.predict(X_test)
+y_pred = grid_search.predict(X_test)
 print("Testes Finalizados!\n")
 
 # Calculando métricas de desempenho
