@@ -16,7 +16,6 @@ def load_new_data(data_dir, target_height=64, target_width=64):
                 image_path = os.path.join(class_dir, image_name)
                 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)  # Carrega a imagem em escala de cinza
                 image = cv2.resize(image, (target_height, target_width))
-                image = image.astype('float32') / 255.0  # Normaliza os pixels das imagens para o intervalo [0, 1]
                 image = np.expand_dims(image, axis=-1)  # Adiciona uma dimensão para o canal
                 images.append(image)
                 labels.append(label)
@@ -35,6 +34,9 @@ new_images, new_labels = load_new_data(new_data_dir, image_height, image_width)
 # Verifica se há dados carregados
 if len(new_images) == 0 or len(new_labels) == 0:
     raise ValueError("Nenhum dado foi carregado. Verifique o diretório da base de dados.")
+
+# Normaliza os pixels das imagens para o intervalo [0, 1]
+new_images = new_images.astype('float32') / 255.0
 
 # Carrega o modelo salvo
 model = tf.keras.models.load_model('fracture_detection_model.h5')
